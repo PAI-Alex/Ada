@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="16dp" android:orientation="vertical">
+    <EditText
+            android:id="@+id/surname"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Фамилия"
+            android:fontFamily="monospace"
+            android:textSize="14sp"
+    />
+
+    <EditText
+            android:id="@+id/name"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Имя"
+            android:fontFamily="monospace"
+            android:textSize="14sp"
+    />
+
+    <EditText
+            android:id="@+id/middleName"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Отчество"
+            android:fontFamily="monospace"
+            android:textSize="14sp"
+    />
+    <EditText
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Телефон"
+            android:fontFamily="monospace"
+            android:textSize="14sp"
+            android:inputType="phone"
+            android:ems="10"
+            android:id="@+id/phone"/>
+    <EditText
+            android:id="@+id/job"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Должность"
+            android:fontFamily="monospace"
+            android:textSize="14sp"
+    />
+
+
+</LinearLayout>
