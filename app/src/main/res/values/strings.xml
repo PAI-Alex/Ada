@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Ada</string>
+    <string name="last_name">" Фамилия"</string>
+    <string name="first_name">" Имя"</string>
+    <string name="middle_name">" Отчество"</string>
+    <string name="rank">" Должность"</string>
+    <string name="phone_number">" Телефон"</string>
+    <string name="organization">" Информация об организации"</string>
+    <string name="to_whom">" К кому"</string>
+    <string name="sent">"Отправить"</string>
+    <string name="add">"+"</string>
+    <string name="human">Пешеход</string>
+    <string name="car">Машина</string>
+</resources>
