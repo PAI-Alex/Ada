@@ -28,7 +28,7 @@
                       android:orientation="vertical">
             <androidx.recyclerview.widget.RecyclerView
                     android:layout_width="match_parent"
-                    android:layout_height="300dp" android:id="@+id/rv"/>
+                    android:layout_height="600dp" android:id="@+id/rv"/>
             <Button android:layout_height="45dp"
                     android:layout_width="45dp"
                     android:id="@+id/button"
