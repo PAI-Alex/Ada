@@ -4,53 +4,72 @@
               android:layout_height="match_parent"
               android:padding="16dp" android:orientation="vertical">
     <EditText
-            android:id="@+id/surname"
-            style="@style/TextAppearance.AppCompat.Title"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Фамилия"
-            android:fontFamily="monospace"
-            android:textSize="14sp"
-    />
+        android:id="@+id/surname"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/fields"
+        android:hint="@string/last_name"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="monospace"
+        android:textSize="14sp"
+        />
 
     <EditText
-            android:id="@+id/name"
-            style="@style/TextAppearance.AppCompat.Title"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Имя"
-            android:fontFamily="monospace"
-            android:textSize="14sp"
-    />
+        android:id="@+id/name"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="match_parent"
+        android:hint="@string/first_name"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10sp"
+        android:layout_marginRight="10dp"
+        android:layout_height="45dp"
+        android:background="@drawable/fields"
+        android:fontFamily="monospace"
+        android:textSize="14sp"
+        />
 
     <EditText
-            android:id="@+id/middleName"
-            style="@style/TextAppearance.AppCompat.Title"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Отчество"
-            android:fontFamily="monospace"
-            android:textSize="14sp"
-    />
+        android:id="@+id/middleName"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10sp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/fields"
+        android:hint="@string/middle_name"
+        android:fontFamily="monospace"
+        android:textSize="14sp"
+        />
     <EditText
-            style="@style/TextAppearance.AppCompat.Title"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Телефон"
-            android:fontFamily="monospace"
-            android:textSize="14sp"
-            android:inputType="phone"
-            android:ems="10"
-            android:id="@+id/phone"/>
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/fields"
+        android:hint="@string/phone_number"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10sp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="monospace"
+        android:textSize="14sp"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/phone"/>
     <EditText
-            android:id="@+id/job"
-            style="@style/TextAppearance.AppCompat.Title"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Должность"
-            android:fontFamily="monospace"
-            android:textSize="14sp"
-    />
+        android:id="@+id/job"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10sp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/fields"
+        android:hint="@string/rank"
+        android:fontFamily="monospace"
+        android:textSize="14sp"
+        />
 
 
 </LinearLayout>
