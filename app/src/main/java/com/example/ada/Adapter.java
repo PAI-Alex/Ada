@@ -11,6 +11,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 public class Adapter extends RecyclerView.Adapter<Adapter.ADA> {
     private int number;
+    String nameText, surnameText, middleNameText, phoneText, jobText;
+   Person person= new Person (nameText, surnameText, middleNameText, phoneText, jobText);
 
     public Adapter(int num) {
         number = num;
@@ -32,7 +34,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ADA> {
 
     @Override
     public void onBindViewHolder(@NonNull ADA holder , int position) {
-        holder.bind ( position );
+        holder.bind ( position);
 
     }
 
@@ -42,16 +44,27 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ADA> {
     }
 
     class ADA extends RecyclerView.ViewHolder {
-        EditText name, surname;
+
+        EditText name, surname, middleName, phone,job;
 
         public ADA(@NonNull View itemView) {
             super ( itemView );
             name = itemView.findViewById ( R.id.name );
             surname = itemView.findViewById ( R.id.surname );
+            middleName=itemView.findViewById ( R.id.middleName );
+            phone = itemView.findViewById ( R.id.phone );
+            job=itemView.findViewById ( R.id.job );
+
+//            nameText=String.valueOf (  name.getText ());
+//            surnameText=String.valueOf (  surname.getText ());
+//            middleNameText=String.valueOf (  middleName.getText ());
+//            phoneText=String.valueOf (  phone.getText ());
+//            jobText=String.valueOf (  job.getText ());
         }
 
         void bind(int i) {
             //element.setText (String.valueOf ( i )  );
+//            name.setText ( person.getName () );
         }
     }
 }

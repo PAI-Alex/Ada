@@ -7,16 +7,7 @@
         android:layout_height="match_parent"
         android:id="@+id/main"
         tools:context=".MainActivity">
-<!--    <ScrollView-->
-<!--            android:layout_height="match_parent"-->
-<!--            android:layout_width="match_parent"-->
-<!--            app:layout_constraintVertical_bias="1.0"-->
-<!--            app:layout_constraintTop_toTopOf="parent"-->
-<!--            app:layout_constraintStart_toStartOf="parent"-->
-<!--            app:layout_constraintHorizontal_bias="0.0"-->
-<!--            app:layout_constraintEnd_toEndOf="parent"-->
-<!--            app:layout_constraintBottom_toBottomOf="parent"-->
-<!--            android:id="@+id/scrollView3">-->
+
 
 
     <ScrollView
@@ -28,7 +19,7 @@
                       android:orientation="vertical">
             <androidx.recyclerview.widget.RecyclerView
                     android:layout_width="match_parent"
-                    android:layout_height="600dp" android:id="@+id/rv"/>
+                    android:layout_height="340dp" android:id="@+id/rv"/>
             <Button android:layout_height="45dp"
                     android:layout_width="45dp"
                     android:id="@+id/button"
@@ -168,5 +159,5 @@
         </LinearLayout>
     </ScrollView>
 
-    <!--    </ScrollView>-->
+
 </androidx.constraintlayout.widget.ConstraintLayout>
