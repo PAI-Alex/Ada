@@ -61,6 +61,20 @@
                 android:autofillHints="@string/organization"
                 />
 
+            <EditText
+                android:id="@+id/editText7"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15sp"
+                android:layout_marginRight="25dp"
+                android:autofillHints="@string/object"
+                android:background="@drawable/fields"
+                android:ems="10"
+                android:hint="@string/object"
+                android:inputType="textPersonName"
+                tools:ignore="LabelFor" />
+
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
@@ -98,20 +112,6 @@
                 android:layout_marginRight="25dp"
                 android:ems="10"
                 android:inputType="date" />
-
-            <EditText
-                    android:layout_height="140dp"
-                    android:layout_width="match_parent"
-                    android:id="@+id/editText7"
-                    android:background="@drawable/fields"
-                    tools:ignore="LabelFor"
-                    android:inputType="textPersonName"
-                    android:hint="@string/to_whom"
-                    android:ems="10"
-                    android:autofillHints="@string/to_whom"
-                    android:layout_marginRight="25dp"
-                    android:layout_marginTop="15sp"
-                    android:layout_marginLeft="25dp"/>
 
             <TextView
                 android:id="@+id/textView3"

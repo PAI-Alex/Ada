@@ -6,7 +6,7 @@
     <string name="rank">" Должность"</string>
     <string name="phone_number">" Телефон"</string>
     <string name="organization">" Информация об организации"</string>
-    <string name="to_whom">" К кому"</string>
+    <string name="object">" Объект доступа"</string>
     <string name="sent">"Отправить"</string>
     <string name="add">"+"</string>
     <string name="human">Пешеход</string>
