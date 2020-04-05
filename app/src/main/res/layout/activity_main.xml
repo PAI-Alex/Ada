@@ -44,17 +44,70 @@
             <EditText
                     android:layout_height="140dp"
                     android:layout_width="match_parent"
-                    android:id="@+id/editText6"
+                    android:id="@+id/goal"
                     android:background="@drawable/fields"
                     tools:ignore="LabelFor"
                     android:inputType="textPersonName"
-                    android:hint="@string/organization"
+                    android:hint="@string/goal"
                 android:layout_marginRight="25dp"
                 android:layout_marginTop="15sp"
                 android:layout_marginLeft="25dp"
                     android:ems="10"
-                    android:autofillHints="@string/organization"
+                    android:autofillHints="@string/goal"
             />
+            <EditText
+                android:layout_height="140dp"
+                android:layout_width="match_parent"
+                android:id="@+id/organization"
+                android:background="@drawable/fields"
+                tools:ignore="LabelFor"
+                android:inputType="textPersonName"
+                android:hint="@string/organization"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="15sp"
+                android:layout_marginLeft="25dp"
+                android:ems="10"
+                android:autofillHints="@string/organization"
+                />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="С какого времени:"
+                android:layout_marginTop="15sp"
+                android:layout_marginLeft="25dp"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/dateFrom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+                android:inputType="date" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="До какого времени:"
+                android:layout_marginTop="15sp"
+                android:layout_marginLeft="25dp"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/dateFor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:ems="10"
+                android:inputType="date" />
+
             <EditText
                     android:layout_height="140dp"
                     android:layout_width="match_parent"
@@ -68,6 +121,37 @@
                     android:layout_marginRight="25dp"
                     android:layout_marginTop="15sp"
                     android:layout_marginLeft="25dp"/>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="К кому:"
+                android:layout_marginTop="15sp"
+                android:layout_marginLeft="25dp"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/toWhom"/>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="От кого:"
+                android:layout_marginTop="15sp"
+                android:layout_marginLeft="25dp"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/whoApprove"/>
+
             <Button
                     android:layout_height="70dp"
                     android:layout_width="200dp"

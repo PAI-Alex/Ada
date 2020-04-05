@@ -11,4 +11,13 @@
     <string name="add">"+"</string>
     <string name="human">Пешеход</string>
     <string name="car">Машина</string>
+    <string name="goal">" Цель посещения"</string>
+    <string name="employee">" ФИО сотрудника"</string>
+    <string name="unit">" Название подразделения"</string>
+    <string name="rank_emp">" Должность сотрудника"</string>
+    <string name="phone">" Телефон"</string>
+    <string name="floor">" Этаж"</string>
+    <string name="room">" Комната"</string>
+    <string name="name_emp">" ФИО сотрудника"</string>
+    <string name="rank_employee">" Должность сотрудника"</string>
 </resources>
